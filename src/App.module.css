@@ -1,0 +1,19 @@
+:root { 
+  --bittersweet: #ff715bff;
+  --white: #ffffffff;
+  --ash-gray: #b3bfb8ff;
+  --myrtle-green: #3d7068ff;
+  --msu-green: #14453dff;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: 800;
+  background-color: var(--msu-green);
+}

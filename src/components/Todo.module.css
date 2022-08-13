@@ -1,0 +1,17 @@
+:root { 
+  --bittersweet: #ff715bff;
+  --white: #ffffffff;
+  --ash-gray: #b3bfb8ff;
+  --myrtle-green: #3d7068ff;
+  --msu-green: #14453dff;
+}
+
+.todo {
+  margin-top: 10px;
+  padding: 10px;
+	border: solid var(--ash-gray) 3px;
+  border-radius: 1rem;
+	background-color: var(--myrtle-green);
+	color: var(--white);
+  text-align: center;
+}

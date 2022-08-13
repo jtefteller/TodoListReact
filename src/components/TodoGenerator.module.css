@@ -1,0 +1,41 @@
+:root { 
+	--bittersweet: #ff715bff;
+	--white: #ffffffff;
+	--ash-gray: #b3bfb8ff;
+	--myrtle-green: #3d7068ff;
+	--msu-green: #14453dff;
+}
+input {
+	all: unset;
+} 
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--white);
+}
+.input {
+	margin: 10px;
+	background-color: var(--msu-green);
+	border: solid var(--ash-gray) 3px;
+	padding: 5px;
+	border-radius: .5rem;
+}
+
+.item {
+	margin: 10px;
+}
+
+button {
+	all: unset;
+}
+
+.button {
+	border: solid var(--ash-gray) 3px;
+	padding: 5px;
+	border-radius: .5rem;
+	background-color: var(--bittersweet);
+	color: var(--msu-green) !important;	
+}
